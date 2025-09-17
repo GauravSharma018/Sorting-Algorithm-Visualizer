@@ -38,3 +38,7 @@ You can clone the repository to your local machine and open the `index.html` fil
 
 ```bash
 git clone https://github.com/GauravSharma018/sorting-visualizer.git
+
+## License
+
+This project is open-source and available under the MIT License.
