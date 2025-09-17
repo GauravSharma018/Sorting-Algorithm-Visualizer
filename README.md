@@ -36,8 +36,8 @@ An interactive **Sorting Algorithm Visualizer** built with **HTML**, **CSS**, an
 
 You can clone the repository to your local machine and open the `index.html` file in a browser.
 
-```bash
-git clone https://github.com/GauravSharma018/sorting-visualizer.git
+
+```git clone https://github.com/GauravSharma018/sorting-visualizer.git```
 
 ## License
 
