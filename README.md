@@ -63,7 +63,7 @@ To run this project on your local machine, follow these simple steps.
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/GauravSharma018/sorting-visualizer
+    git clone [https://github.com/GauravSharma018/sorting-visualizer](https://github.com/GauravSharma018/Sorting-Algorithm-Visualizer]
     ```
 
 2.  **Navigate to the project directory**:
