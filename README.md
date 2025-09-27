@@ -4,7 +4,7 @@ An interactive **Sorting Algorithm Visualizer** built with **HTML**, **CSS**, an
 
 
 
-**➡️ [Live Demo](https://your-github-username.github.io/sorting-visualizer/)** *(Replace with your live GitHub Pages link)*
+**➡️ [Live Demo](https://your-github-username.github.io/sorting-visualizer/)**
 
 ---
 ## ✨ Features
@@ -63,7 +63,7 @@ To run this project on your local machine, follow these simple steps.
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/GauravSharma018/sorting-visualizer.git](https://github.com/GauravSharma018/sorting-visualizer.git)
+    git clone https://github.com/GauravSharma018/sorting-visualizer
     ```
 
 2.  **Navigate to the project directory**:
