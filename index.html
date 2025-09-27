@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sorting Algorithm Visualizer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sorting Visualizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="header">
-    <h1>Sorting Algorithm Visualizer</h1>
-    <button onclick="generateArray()">Generate New Array</button>
-    <button onclick="startSorting()">Start Sorting</button>
-    <select id="algorithmSelect">
-      <option value="bubbleSort">Bubble Sort</option>
-      <option value="mergeSort">Merge Sort</option>
-      <option value="quickSort">Quick Sort</option>
-    </select>
-    <input type="range" id="speedRange" min="1" max="100" value="50">
-    <span id="speedValue">Speed: 50</span>
-  </div>
+    <header>
+        <h1>Sorting Visualizer</h1>
+    </header>
 
-  <div class="visualizer">
-    <div id="bars"></div>
-  </div>
+    <nav class="controls">
+        <div class="control-section">
+            <button id="newArrayBtn"><i class="fa-solid fa-arrows-rotate"></i> Generate New Array</button>
+        </div>
 
-  <script src="script.js"></script>
+        <div class="control-section">
+            <div class="slider-group">
+                <label for="sizeSlider">Size</label>
+                <input id="sizeSlider" type="range" min="10" max="150" value="50">
+                <span id="sizeValue">50</span>
+            </div>
+            <div class="slider-group">
+                <label for="speedSlider">Speed</label>
+                <input id="speedSlider" type="range" min="1" max="100" value="50">
+                <span id="speedValue">50</span>
+            </div>
+        </div>
+
+        <div class="control-section">
+            <select id="algoSelect">
+                <option value="bubble">Bubble Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="heap">Heap Sort</option>
+                <option value="count">Count Sort</option>
+                <option value="radix">Radix Sort</option>
+                <option value="bucket">Bucket Sort</option>
+            </select>
+            <button id="startBtn" class="start-btn"><i class="fa-solid fa-play"></i> Start</button>
+        </div>
+    </nav>
+    
+    <div id="array-display-container">
+        <p id="array-display"></p>
+    </div>
+
+    <main>
+        <div id="bars-container"></div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
